@@ -16,6 +16,7 @@ public class WaitAndNotify {
                         e.printStackTrace();
                     }
                 }
+                lock.notify();
             }
         }
     }
